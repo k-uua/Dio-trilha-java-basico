@@ -1,0 +1,23 @@
+---
+title Diagrama UML iPhone
+---
+classDiagram
+    iPhone <|-- ReprodutorMusical    
+    iPhone <|-- Telefone
+    iPhone <|-- NavegadorInternet
+   
+    class ReprodutorMusical{
+        +tocar()
+        +pausar()
+        +selecionaMusica()
+    }
+    class Telefone{
+        +ligar(String numero)
+        +atender()
+        +iniciarCorreioVoz()
+    }
+    class NavegadorInternet{
+        +exibirPagina(String url)
+        +adicionarNovaAba()
+        +atualizarPagina()
+    }
