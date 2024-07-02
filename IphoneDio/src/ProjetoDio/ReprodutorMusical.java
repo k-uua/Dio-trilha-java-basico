@@ -1,5 +1,8 @@
 package ProjetoDio;
 
-public class ReprodutorMusical {
-
+public interface ReprodutorMusical {
+	void pausar();
+	void tocar();
+	void trocarMusica(String musica);
 }
+
